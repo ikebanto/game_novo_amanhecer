@@ -1,18 +1,17 @@
 const cardBoard = document.querySelector("#cardboard");
 const imgs = [
-  "abuso_sexual_contato_fisico.svg",
-  "abuso_sexual_extra_familiar.svg",
-  "abuso_sexual_inst.svg",
-  "abuso_sexual_intra_familiar.svg",
-  "contato_fisico.svg",
-  "disk100.svg",
-  "pornografia_infantil.svg",
-  "trabalho_sexual_agenciado.svg",
-  "trabalho_sexual_autonomo.svg",
-  "trafico_sexual.svg",
-  "trocas_sexuais.svg",
-  "turismo_sexual.svg"
-
+  'abuso_sexual_contato_fisico.svg',
+  'abuso_sexual_extra_familiar.svg',
+  'abuso_sexual_inst.svg',
+  'abuso_sexual_intra_familiar.svg',
+  'contato_fisico.svg',
+  'disk100.svg',
+  'pornografia_infantil.svg',
+  'trabalho_sexual_agenciado.svg',
+  'trabalho_sexual_autonomo.svg',
+  'trafico_sexual.svg',
+  'trocas_sexuais.svg',
+  'turismo_sexual.svg'
 ];
 
 let cardHTML = "";
@@ -62,7 +61,6 @@ function unFlipCards() {
   }, 1000);
 }
 
-s
 function resetCards(isMatch = false) {
   if (isMatch) {
     firstCard.removeEventListener("click", flipCard);
