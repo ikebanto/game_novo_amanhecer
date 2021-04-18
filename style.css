@@ -47,3 +47,41 @@ body {
 .front-face {
   transform: rotateY(180deg);
 }
+
+#modal{
+	width: 100%;
+	height: 205%;
+	display: none;
+	position: absolute;
+	background-color: rgba(0,0,0,0.75);
+}
+
+#divMsg {
+	width: 70%;
+	height: 30%;
+	margin:15%;
+	display: none;
+	font-family: Verdana;
+	padding: 30px;
+	position: absolute;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#divMsg > p {
+	margin-top: 20px;
+}
+
+.fechar {
+  position: absolute;
+  width: 45px;
+  right: -15px;
+  top: -20px;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 5px;
+  background: #ff4545;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+}
